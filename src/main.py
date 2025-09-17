@@ -2,8 +2,8 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 import threading, time, queue, serial, serial.tools.list_ports, re
 
-CLASS_NAME   = "智能2301班"
-STUDENT_NAME = "组长：张兆涵   组员：岳林轩"
+CLASS_NAME   = "智能23xx班"
+STUDENT_NAME = "组长：xxx   组员：xxx"
 
 DEFAULT_PORT = "None"
 DEFAULT_BAUD = 115200
@@ -13,10 +13,10 @@ CMD_HEX = {
     "DOOR 0":   "AA 55 01 00",
     "LIGHT 1":  "AA 55 02 01",
     "LIGHT 0":  "AA 55 02 00",
-    "ANTI 1":   "AA 55 04 01",
-    "ANTI 0":   "AA 55 04 00",
     "EYE 1":    "AA 55 03 01",
     "EYE 0":    "AA 55 03 00",
+    "ANTI 1":   "AA 55 04 01",
+    "ANTI 0":   "AA 55 04 00",
 }
 
 FRAME_HEAD = bytes([0xAA, 0x55])
