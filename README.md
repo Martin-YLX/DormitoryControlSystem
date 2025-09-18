@@ -3,6 +3,8 @@
 A desktop application based on **Python + Tkinter** for serial communication with a lower computer.  
 It sends and receives fixed-length frames (6 bytes, starting with `AA 55`) and provides a simple control interface and logging system.
 
+[macOS Version](https://github.com/Martin-YLX/DormitoryControlSystemForMac)
+
 [📖 中文版说明 (README-CN.md)](README-CN.md)
 
 ---
