@@ -2,8 +2,7 @@
 
 一个基于 **Python + Tkinter** 的桌面应用，用于通过串口与下位机通信，发送和接收定长帧协议（`AA 55` 开头，总长 6 字节），并提供简单的控制界面与日志显示。
 
-[🔗 macOS版仓库](https://github.com/Martin-YLX/DormitoryControlSystem](https://github.com/Martin-YLX/DormitoryControlSystemForMac )
-
+[🔗 macOS版本](https://github.com/Martin-YLX/DormitoryControlSystemForMac)
 
 ---
 
